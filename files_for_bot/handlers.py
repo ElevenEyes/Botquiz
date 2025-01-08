@@ -1,6 +1,6 @@
-from files_for_bot.utils import dp
-from files_for_bot.qdata import quiz_data
-from files_for_bot.utils import get_quiz_index, update_quiz_index, get_question, new_quiz, update_user_score, get_user_score
+from utils import dp
+from qdata import quiz_data
+from utils import get_quiz_index, update_quiz_index, get_question, new_quiz, update_user_score, get_user_score
 from aiogram import types
 from aiogram.filters.command import Command
 from aiogram.utils.keyboard import ReplyKeyboardBuilder

@@ -3,7 +3,7 @@ from aiogram import Dispatcher
 import aiosqlite
 from aiogram import types
 from aiogram.utils.keyboard import InlineKeyboardBuilder
-from files_for_bot.qdata import quiz_data
+from qdata import quiz_data
 
 # Диспетчер
 dp = Dispatcher()

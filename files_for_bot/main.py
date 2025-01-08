@@ -5,8 +5,8 @@ from aiogram import Bot, Dispatcher
 import aiosqlite
 from aiogram import types
 from aiogram.utils.keyboard import InlineKeyboardBuilder
-from files_for_bot.utils import DB_NAME, dp
-from files_for_bot.handlers import cmd_quiz, cmd_start, right_answer, wrong_answer
+from utils import DB_NAME, dp
+from handlers import cmd_quiz, cmd_start, right_answer, wrong_answer
 
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
